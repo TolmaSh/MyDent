@@ -7,7 +7,7 @@
   --main-color: #fff;
   --accent-color: #06D6A0;
 }
-body {
+html,body {
   font-size: 10px;
   font-family: 'Ubuntu', sans-serif;
 }
@@ -15,6 +15,10 @@ body {
   max-width: 1170px;
   margin: 0 auto;
 }
+.head-bg {
+  background: linear-gradient(111.34deg, rgba(0, 0, 0, 0.8) 0%, rgba(17, 6, 85, 0.8) 36.63%, rgba(35, 14, 164, 0.8) 62.72%, rgba(0, 209, 255, 0.736) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+}
 //подключаем БЭМ блоки
 @import 'blocks/test';
 @import 'blocks/header';
+@import 'blocks/general';

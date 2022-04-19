@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyDent</title>
-    <link rel="stylesheet" href="css/main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyDent</title>
+  <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
+
 <!--    <svg>-->
 <!--        <use xlink:href="img/icons/sprite.svg#clock"></use>-->
 <!--    </svg>-->
@@ -17,26 +18,22 @@
 <!--    <svg>-->
 <!--        <use xlink:href="img/icons/sprite.svg#clouds-fill"></use>-->
 <!--    </svg>-->
-    <!-- пример подключения картинок, и html-блоков, удалить перед началом работы -->
-    <div class="bem">
-        <!-- подключаем шапку -->
-        @@include('blocks/header.html')
+<!-- пример подключения картинок, и html-блоков, удалить перед началом работы -->
+<div class="head-bg">
+  <!-- подключаем шапку -->
+  @@include('blocks/header.html')
+  <main class="main">
+    @@include('blocks/general.html')
+  </main>
+
+  <!-- подключаем подвал -->
+  <!--        @@include('blocks/footer.html')-->
+
+</div>
 
 
-
-<!--        <div class="test__content">-->
-<!--            <img class="test__img" src="img/mentor.jpg" alt="mentor picture">-->
-<!--            <div class="test__pic"></div>-->
-<!--        </div>-->
-
-        <!-- подключаем подвал -->
-<!--        @@include('blocks/footer.html')-->
-
-    </div>
-
-
-    <!-- подключаем js -->
-    <script src="js/main.js"></script>
+<!-- подключаем js -->
+<script src="js/main.js"></script>
 </body>
 
 </html>
