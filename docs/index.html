@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MyDent</title>
-  <link rel="stylesheet" href="css/main.css?t=1650302814239">
+  <link rel="stylesheet" href="css/main.css?t=1651949421176">
 </head>
 
 <body>
@@ -64,16 +64,21 @@
         ротовой полости.
       </h3>
       <div class="general__buttons">
-        <a >Записаться</a>
-        <a> Услуги</a>
+        <a class="general__enroll-btn">Записаться</a>
+        <a class="general__services-btn">
+          Услуги
+          <svg class="general__services-img">
+           <use xlink:href="img/icons/sprite.svg#services"></use>
+          </svg>
+        </a>
       </div>
     </div>
     <div class="general__footer">
       <ul class="general__language">
-        <li class="general__language-item">RU</li>
-        <li class="general__language-item">ENG</li>
+        <li class="general__language-item general__language-item--active">RU</li>
+        <li class="general__language-item">EN</li>
       </ul>
-      <button>Arrow</button>
+      <button class="general__nextSectionBtn">Arrow</button>
     </div>
   </div>
 
@@ -87,7 +92,7 @@
 
 
 <!-- подключаем js -->
-<script src="js/main.js?t=1650302814239"></script>
+<script src="js/main.js?t=1651949421176"></script>
 </body>
 
 </html>

@@ -29,4 +29,52 @@
       font-weight: 700;
     }
   }
+  &__buttons {
+    display: flex;
+    align-items: center;
+    gap: 77px;
+    margin-top: 77px;
+  }
+  &__enroll-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 0.015em;
+    width: 160px;
+    height: 46px;
+    border-radius: 50px;
+    background-color: #06D6A0;
+  }
+  &__services-btn {
+    display: flex;
+    font-weight: 700;
+    font-size: 1.4rem;
+    letter-spacing: 0.015em;
+    color: #06D6A0;
+  }
+  &__services-img {
+    width: 46px;
+    height: 46px;
+  }
+  &__footer {
+    display: flex;
+    margin-top: 136px;
+  }
+  &__language {
+    display: flex;
+    gap: 7px;
+    list-style: none;
+    &-item {
+      font-weight: 400;
+      font-size: 1.6rem;
+      line-height: 22px;
+      letter-spacing: 0.05em;
+    }
+  }
+  &__nextSectionBtn {
+    align-self: center;
+
+  }
 }
