@@ -1,0 +1,19 @@
+.about {
+  background: linear-gradient(105.47deg, #201378 -0.09%, rgba(32, 19, 120, 0.76) 113.87%);
+  position: relative;
+  padding-top: 24px;
+  &__left {
+    max-width: 634px;
+    &-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      margin-top: 40px;
+    }
+  }
+  &__text {
+    font-weight: 400;
+    font-size: 1.5rem;
+    color:#fff;
+  }
+}

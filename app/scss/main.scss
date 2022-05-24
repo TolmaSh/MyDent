@@ -21,7 +21,9 @@ html,body {
   background-position: center;
 }
 //подключаем БЭМ блоки
+@import 'title';
 @import 'blocks/test';
 @import 'blocks/header';
 @import 'blocks/general';
 @import 'blocks/reasons';
+@import 'blocks/about';
