@@ -1,0 +1,67 @@
+.team {
+  background-color: #fff;
+  &__wrapper {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__person {
+    &-photo {
+      width: 182px;
+      height: 182px;
+      border-radius: 50%;
+      border: 1px solid #06D6A0;
+      object-fit: cover;
+      object-position: center top;
+    }
+    &-name {
+      font-size: 2.4rem;
+      font-weight: 400;
+      color: #000952;
+      margin-top: 18px;
+    }
+    &-text {
+      font-size: 1.5rem;
+      font-weight: 300;
+      margin-top: 15px;
+      text-align: center;
+    }
+    &-link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 160px;
+      height: 46px;
+      margin-top: 33px;
+      border: 1px solid #06D6A0;
+      box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.3);
+      border-radius: 50px;
+      font-size: 1.4rem;
+      font-weight: 400;
+      color: #06D6A0;
+      text-decoration: none;
+      transition: all 0.2s ease-in;
+      &:hover {
+        color: #fff;
+        background: #06D6A0;
+        border:none;
+      }
+    }
+    &__doctors {
+      font-weight: 400;
+      color: #000952;
+      &:after {
+        content: "";
+        width: 46px;
+        height: 46px;
+        background-image: url(.././img/ServicesArrow.webp);
+        background-size: cover;
+      }
+    }
+    &:hover {
+      background: #FFFFFF;
+      box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.03);
+      border-radius: 30px;
+    }
+  }
+}

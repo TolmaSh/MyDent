@@ -22,6 +22,7 @@
     &:hover {
       background: rgba(32, 19, 120, 0.76) ;
       transition: all 0.2s ease-in;
+      cursor: pointer;
       .service__img {
         fill: #fff;
         transition: all 0.2s ease-in;
