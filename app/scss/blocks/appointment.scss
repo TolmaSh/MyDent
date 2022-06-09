@@ -1,0 +1,32 @@
+.appointment {
+  padding: 120px 0;
+  background:  linear-gradient(0deg, rgba(35, 35, 147, 0.67), rgba(35, 35, 147, 0.67)),url(.././img/appointment-bg.jpg);
+  background-size: cover;
+  background-position: 25% 15%;
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__logo {
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--main-color);
+    font-size: 5rem;
+    font-weight: 500;
+    line-height: 23px;
+    &-img {
+      position: absolute;
+      left: 35%;
+      top: -100%;
+      z-index: 1;
+      width: 70px;
+      height: 70px;
+    }
+    &-text {
+      position: relative;
+      z-index: 2;
+    }
+  }
+}

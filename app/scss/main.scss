@@ -22,6 +22,7 @@ html,body {
 }
 //подключаем БЭМ блоки
 @import 'title';
+@import 'form';
 @import 'blocks/test';
 @import 'blocks/header';
 @import 'blocks/general';
@@ -29,3 +30,4 @@ html,body {
 @import 'blocks/about';
 @import 'blocks/service';
 @import 'blocks/team';
+@import 'blocks/appointment';
