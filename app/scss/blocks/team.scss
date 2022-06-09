@@ -1,11 +1,14 @@
 .team {
   background-color: #fff;
+  padding-bottom: 90px;
   &__wrapper {
     margin-top: 80px;
     display: flex;
     justify-content: space-between;
   }
   &__person {
+    padding: 30px 44px;
+    transition: all 0.2s ease-in;
     &-photo {
       width: 182px;
       height: 182px;
@@ -47,21 +50,28 @@
         border:none;
       }
     }
-    &__doctors {
-      font-weight: 400;
-      color: #000952;
-      &:after {
-        content: "";
-        width: 46px;
-        height: 46px;
-        background-image: url(.././img/ServicesArrow.webp);
-        background-size: cover;
-      }
-    }
     &:hover {
       background: #FFFFFF;
       box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.03);
       border-radius: 30px;
+    }
+  }
+  &__doctors {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 55px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #000952;
+    text-decoration: none;
+    &:after {
+      content: "";
+      width: 42px;
+      height: 42px;
+      background-image: url(.././img/ServicesArrow.webp);
+      background-size: contain;
+      background-repeat: no-repeat;
     }
   }
 }
