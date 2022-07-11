@@ -1,13 +1,14 @@
 .contacts {
   position: relative;
   padding-top: 100px;
+  padding-bottom: 240px;
   &__map {
     position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
     top: 0;
-    height: 866px;
+    height: 100%;
   }
   &__info {
     display: flex;

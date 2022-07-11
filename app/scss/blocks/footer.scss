@@ -1,0 +1,27 @@
+.footer {
+  padding-top: 45px;
+  background: #fff;
+  &__logo {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000952;
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 23px;
+    &-img {
+      position: absolute;
+      left: 49%;
+      top: -20px;
+      z-index: 1;
+      width: 70px;
+      height: 70px;
+    }
+    &-text {
+      position: relative;
+      z-index: 2;
+    }
+  }
+}
