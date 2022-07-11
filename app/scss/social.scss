@@ -1,0 +1,10 @@
+.social {
+display: flex;
+gap: 10px;
+align-items: center;
+list-style: none;
+  &__img {
+    width: 17px;
+    height: 20px;
+  }
+}

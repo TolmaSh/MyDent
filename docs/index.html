@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MyDent</title>
-  <link rel="stylesheet" href="css/main.css?t=1657498688462">
+  <link rel="stylesheet" href="css/main.css?t=1657502983179">
 </head>
 
 <body>
@@ -41,7 +41,7 @@
       </nav>
       <div class="header__phone">
         <svg class="header__phone-img">
-          <use xlink:href="img/icons/sprite.svg#Phone"></use>
+          <use xlink:href="img/icons/sprite.svg#headerPhone"></use>
         </svg>
         <div class="header__phone-text">
           <a href="#" class="header__phone-link">+38 (093) 333 33 33</a>
@@ -272,34 +272,58 @@
       </div>
     </div>
 </section>
-    
-<section class="contacts">
+    <section class="contacts">
   <div class="contacts__map" id="map"></div>
   <div class="container">
     <div class="contacts__info">
       <h3 class="contacts__title title title_grayLine">Контакты</h3>
       <ul class="contacts__list">
         <li class="contacts__list-item">
-              <svg><use xlink:href="img/icons/sprite.svg#location"></use></svg>
-              <span>г. Киев, ул.  Викентия Хвойки, 18</span>
-
+          <svg class="contacts__list-img"><use xlink:href="img/icons/sprite.svg#location"></use></svg>
+          <div class="contacts__list-text">
+            <span>г. Киев, ул. Викентия Хвойки, 18</span>
+          </div>
         </li>
         <li class="contacts__list-item">
-          <svg><use xlink:href="img/icons/sprite.svg#phone"></use></svg>
-          <span>г. Киев, ул.  Викентия Хвойки, 18</span>
+          <svg class="contacts__list-img"><use xlink:href="img/icons/sprite.svg#phone"></use></svg>
+          <div class="contacts__list-text">
+            <span><a class="contacts__list-link" href="tel:380933333333">+ 38 (093) 333 33 33</a></span>
+            <span><a class="contacts__list-link" href="tel:380506066666">+ 38 (050) 606 66 66</a></span>
+          </div>
         </li>
         <li class="contacts__list-item">
-          <svg><use xlink:href="img/icons/sprite.svg#email"></use></svg>
-          <span>г. Киев, ул.  Викентия Хвойки, 18</span>
+          <svg class="contacts__list-img"><use xlink:href="img/icons/sprite.svg#email"></use></svg>
+          <div class="contacts__list-text">
+            <span><a class="contacts__list-link" href="mailto:mydent@gmail.com">mydent@gmail.com</a></span>
+          </div>
         </li>
         <li class="contacts__list-item">
-          <svg><use xlink:href="img/icons/sprite.svg#clock"></use></svg>
-          <span>г. Киев, ул.  Викентия Хвойки, 18</span>
+          <svg class="contacts__list-img"><use xlink:href="img/icons/sprite.svg#clock"></use></svg>
+          <div class="contacts__list-text">
+            <span>пн-пт: с 10:00 до 18:00</span>
+            <span>сб-вс: с 11:00 до 17:00</span>
+          </div>
         </li>
       </ul>
+      <div class="contacts__list-footer">
+        <button class="contacts__list-btn">Записаться</button>
+        <ul class="contacts__list-social social">
+          <li class="social__item">
+            <a href="#" class="social__link">
+              <svg class="social__img"><use xlink:href="img/icons/sprite.svg#telegram"></use></svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="#" class="social__link">
+              <svg class="social__img"><use xlink:href="img/icons/sprite.svg#viber"></use></svg>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </section>
+
   </main>
 
   <!-- подключаем подвал -->
@@ -309,7 +333,7 @@
 
 
 <!-- подключаем js -->
-<script src="js/main.js?t=1657498688462"></script>
+<script src="js/main.js?t=1657502983179"></script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC7v16maUUCl6I7UnYJAnzVbGnXHs_MxwY&callback=initMap"></script>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 </body>
