@@ -1,6 +1,9 @@
 .general {
   color: #fff;
   padding-bottom: 56px;
+  padding-top: 70px;
+  background: linear-gradient(111.34deg,rgba(0,0,0,.8) 0,rgba(17,6,85,.8) 36.63%,rgba(35,14,164,.8) 62.72%,rgba(0,209,255,.736) 100%) center/cover,linear-gradient(0deg,rgba(0,0,0,.4),rgba(0,0,0,.4)) center/cover,url(../img/Healthfully.jpg) center/cover;
+
   &__wrapper {
     display: flex;
     flex-direction: column;
