@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MyDent</title>
-  <link rel="stylesheet" href="css/main.css?t=1657894424484">
+  <link rel="stylesheet" href="css/main.css?t=1658923130284">
 </head>
 
 <body>
@@ -33,11 +33,11 @@
       </a>
       <nav class="header__nav">
         <ul class="header__nav-list">
-          <li class="header__nav-item"><a href="#">Главная</a></li>
-          <li class="header__nav-item"><a href="#">О клинике</a></li>
-          <li class="header__nav-item"><a href="#">Врачи</a></li>
-          <li class="header__nav-item"><a href="#">Услуги</a></li>
-          <li class="header__nav-item"><a href="#">Контакты</a></li>
+          <li class="header__nav-item"><a href="#" class="lng-header_main">Головна</a></li>
+          <li class="header__nav-item"><a href="#" class="lng-header_about">Про клініку</a></li>
+          <li class="header__nav-item"><a href="#" class="lng-header_doctors">Лікарі</a></li>
+          <li class="header__nav-item"><a href="#" class="lng-header_services">Послуги</a></li>
+          <li class="header__nav-item"><a href="#" class="lng-header_contacts">Контакти</a></li>
         </ul>
       </nav>
       <div class="header__phone">
@@ -46,7 +46,7 @@
         </svg>
         <div class="header__phone-text">
           <a href="#" class="header__phone-link">+38 (093) 333 33 33</a>
-          <span class="header__phone-item">Бесплатная консультация</span>
+          <span class="header__phone-item lng-header_consultation">Безкоштовна консультація</span>
         </div>
 
       </div>
@@ -57,26 +57,26 @@
     <section class="general">
   <div class="container">
     <div class="general__wrapper">
-      <h1 class="general__title">
-        Лечим зубы без боли и страха
+      <h1 class="general__title lng-general_title">
+        Лікуємо зуби без болю та страху
       </h1>
-      <h3 class="general__subtitle">
-        Поможем засиять улыбкой мечты. Запишитесь на первый прием онлайн и получите скидку <span>30%</span> на полную диагностику
-        ротовой полости.
+      <h3 class="general__subtitle lng-general_subtitle">
+        Допоможемо здобути усмішку мрії. Запишіться на перший прийом онлайн та отримайте знижку <span>30%</span> на повну діагностику
+        ротової порожнини.
       </h3>
       <div class="general__buttons">
-        <a class="general__enroll-btn">Записаться</a>
-        <a class="general__services-btn">
-          Услуги
+        <a class="general__enroll-btn lng-general_enroll">Записатись</a>
+        <a class="general__services-btn lng-general_services">
+          Послуги
 <picture><source srcset="./img/ServicesArrow.avif" type="image/avif"><source srcset="./img/ServicesArrow.webp" type="image/webp"><img class="general__services-img" src="./img/ServicesArrow.png" alt="arrow"></picture>
         </a>
       </div>
     </div>
     <div class="general__footer">
-      <ul class="general__language">
-        <li class="general__language-item general__language-item--active">RU</li>
-        <li class="general__language-item">EN</li>
-      </ul>
+      <div class="general__language">
+        <button class="general__language-item general__language-item--active" data-lang="ua" >UA</button>
+        <button class="general__language-item" data-lang="eng">EN</button>
+      </div>
       <button class="general__nextSectionBtn">
 <picture><source srcset="./img/ArrowBottom.avif" type="image/avif"><source srcset="./img/ArrowBottom.webp" type="image/webp"><img class="general__nextSectionBtn-img" src="./img/ArrowBottom.png" alt="arrow"></picture>
       </button>
@@ -87,49 +87,54 @@
 </section>
     <section class="reasons">
   <div class="container">
-    <h2 class="reasons__title"><span class="reasons__title_bold">5</span> причин обратиться к нам</h2>
+    <h2 class="reasons__title lng-reasons_title"><span class="reasons__title_bold">5</span> причин звернутись до нас
+    </h2>
     <div class="reasons__wrapper">
       <div class="reasons__item">
         <span class="reasons__item-number">#01</span>
         <div class="reasons__item-wrapper">
-          <h3 class="reasons__item-title">СЕМЕЙНАЯ СТОМАТОЛОГИЯ</h3>
-          <p class="reasons__item-text">
-            Мы не просто стоматология, а маленькая семья. За нашей жизнью можно наблюдать в Instagram
+          <h3 class="reasons__item-title lng-reasons_item-titleFirst">Сімейна стоматологія</h3>
+          <p class="reasons__item-text lng-reasons_item-textFirst">
+            Ми не просто стоматологія, а маленька сім'я. За нашим життям можна спостерігати в Instagram
           </p>
         </div>
       </div>
       <div class="reasons__item">
         <span class="reasons__item-number">#02</span>
         <div class="reasons__item-wrapper">
-          <h3 class="reasons__item-title">технологический подход</h3>
-          <p class="reasons__item-text">
-            Используем качественный материал и инструмент. Отказываемся от устаревших методик лечения в пользу инновационных способов
+          <h3 class="reasons__item-title lng-reasons_item-titleSecond">Технологічний підхід</h3>
+          <p class="reasons__item-text lng-reasons_item-textSecond">
+            Використовуємо якісний матеріал і інструмент. Відмовляємось від застарілих методик лікування в пользу
+            інноваційних способах
           </p>
         </div>
       </div>
       <div class="reasons__item">
         <span class="reasons__item-number">#03</span>
         <div class="reasons__item-wrapper">
-          <h3 class="reasons__item-title">дружеская обстановка</h3>
-          <p class="reasons__item-text">
-            Для нас пациент – это не просто клиент. Все наши пациенты становятся друзьями и хорошими знакомыми          </p>
+          <h3 class="reasons__item-title lng-reasons_item-titleThird">Дружня атмосфера</h3>
+          <p class="reasons__item-text lng-reasons_item-textThird">
+            Для нас пацієнт – це не просто клієнт. Всі наші пацієнти становляться друзями і хорошими знайомими
+          </p>
         </div>
       </div>
       <div class="reasons__item">
         <span class="reasons__item-number">#04</span>
         <div class="reasons__item-wrapper">
-          <h3 class="reasons__item-title">только необходимое лечение</h3>
-          <p class="reasons__item-text">
-            Мы не навязываем дополнительных услуг, если не видим в этом смысла. Нам важно дать пациенту больше, чем взять от него
+          <h3 class="reasons__item-title lng-reasons_item-titleFourth">Тільки необхідне лікування</h3>
+          <p class="reasons__item-text lng-reasons_item-textFourth">
+            Ми не нав'язуємо додаткові послуги, якщо не бачимо в цьому сенсу. Нам важливо дати пацієнтові більше, ніж
+            взяти від нього
           </p>
         </div>
       </div>
       <div class="reasons__item">
         <span class="reasons__item-number">#05</span>
         <div class="reasons__item-wrapper">
-          <h3 class="reasons__item-title">ЛЕЧИМ ВЗРОСЛЫХ И ДЕТЕЙ</h3>
-          <p class="reasons__item-text">
-            Обычно как взрослых, так и маленьких пациентов. Для этого у нас есть все необходимые знания, а главное – большой подход к деткам          </p>
+          <h3 class="reasons__item-title lng-reasons_item-titleFifth">Лікуємо дорослих та дітей</h3>
+          <p class="reasons__item-text lng-reasons_item-textFifth">
+            Зазвичай як дорослих, так і маленьких пацієнтів. Для цього ми маємо всі необхідні знання, а головне – правильний підхід до дітей
+          </p>
         </div>
       </div>
     </div>
@@ -397,7 +402,7 @@
 
 
 <!-- подключаем js -->
-<script src="js/main.js?t=1657894424484"></script>
+<script src="js/main.js?t=1658923130284"></script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC7v16maUUCl6I7UnYJAnzVbGnXHs_MxwY&callback=initMap"></script>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 </body>

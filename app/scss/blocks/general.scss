@@ -76,13 +76,17 @@
   &__language {
     display: flex;
     gap: 7px;
-    list-style: none;
+
     &-item {
       font-weight: 400;
       font-size: 1.6rem;
       line-height: 22px;
       letter-spacing: 0.05em;
       cursor: pointer;
+      outline: none;
+      background: none;
+      border: none;
+      color: #fff;
       &--active {
         font-weight: 700;
       }
