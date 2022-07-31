@@ -1,4 +1,5 @@
 export const langArr = {
+  // HEADER SECTION
   'header_main': {
     'ua': 'Головна',
     'eng': 'Main'
@@ -86,5 +87,55 @@ export const langArr = {
   'reasons_item-textFifth': {
     'ua': `Зазвичай як дорослих, так і маленьких пацієнтів. Для цього ми маємо всі необхідні знання, а головне – правильний підхід до дітей`,
     'eng': 'Usually, both adults and small patients. For this, we have all the necessary knowledge, and most importantly, the right approach to children'
+  },
+//  ABOUT SECTION
+  'about_title': {
+    'ua': `Про нас`,
+    'eng': 'About us'
+  },
+  'about_textFirst': {
+    'ua': `Перше, що ви, напевно, помітите в нашій практиці - це атмосфера з низьким рівнем стресу, як вдома.`,
+    'eng': 'The first thing you will surely notice in our practice is the low-stress atmosphere, just like at home.'
+  },
+  'about_textSecond': {
+    'ua': `Ви також із задоволенням виявите, що наш офіс укомплектований за останнім словом техніки, і вас зустрінуть висококваліфіковані спеціалісти, які постійно підвищують рівень своєї освіти.`,
+    'eng': 'You will also be pleased to find that our office is equipped with the latest technology, and you will be met by highly qualified professionals who are constantly improving their level of education.'
+  },
+  'about_textThird': {
+    'ua': `Ми даємо вам більше, чим ви хочете!`,
+    'eng': 'We give you more of what you want!'
+  },
+  'about_link': {
+    'ua': `Більше про нас`,
+    'eng': 'More about us'
+  },
+//  SERVICE SECTION
+  'service_title': {
+    'ua': `Послуги`,
+    'eng': 'Services'
+  },
+  'service_braces': {
+    'ua': `Ортодонтія`,
+    'eng': 'Orthodontics'
+  },
+  'service_dental': {
+    'ua': `Імплантація`,
+    'eng': 'Implantation'
+  },
+  'service_surgery': {
+    'ua': `Хірургія`,
+    'eng': 'Surgery'
+  },
+  'service_whitening': {
+    'ua': `Відбілювання`,
+    'eng': 'Whitening'
+  },
+  'service_laserdent': {
+    'ua': `Лазерна стоматологія`,
+    'eng': 'Laser Dentistry'
+  },
+  'service_childdent': {
+    'ua': `Дитяча Стоматологія`,
+    'eng': 'Children`s dentistry'
   },
 }
