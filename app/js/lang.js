@@ -138,4 +138,82 @@ export const langArr = {
     'ua': `Дитяча Стоматологія`,
     'eng': 'Children`s dentistry'
   },
+//  TEAM SECTION
+  'team_title': {
+    'ua': `Наша команда`,
+    'eng': 'Our team'
+  },
+  'team_doctors': {
+    'ua': `Всі лікарі`,
+    'eng': 'All doctors'
+  },
+  // *----*  //
+  'team_firstPerson-name': {
+    'ua': `Новікова Анна`,
+    'eng': 'Novikova Anna'
+  },
+  'team_firstPerson-position': {
+    'ua': `Лікар стоматолог-ортопед`,
+    'eng': 'Dentist-orthopedist'
+  },
+  'team_firstPerson-experience': {
+    'ua': `Стаж роботи – 3 роки`,
+    'eng': 'Work experience - 3 years'
+  },
+  'team_firstPerson-link': {
+    'ua': `Записатись`,
+    'eng': 'Sign up'
+  },
+  // *----*  //
+  'team_second-name': {
+    'ua': `Лаврова Ірина`,
+    'eng': 'Lavrova Irina'
+  },
+  'team_second-position': {
+    'ua': `Лікар стоматолог-хірург`,
+    'eng': 'Dentist-surgeon'
+  },
+  'team_second-experience': {
+    'ua': `Стаж роботи – 14 років`,
+    'eng': 'Work experience - 14 years'
+  },
+  'team_secondPerson-link': {
+    'ua': `Записатись`,
+    'eng': 'Sign up'
+  },
+  // *----*  //
+  'team_third-name': {
+    'ua': `Бондарь Володимир`,
+    'eng': 'Bondar Vladimir'
+  },
+  'team_third-position': {
+    'ua': `Лікар Рентгенолог`,
+    'eng': 'Doctor Radiologist'
+  },
+  'team_third-experience': {
+    'ua': `Стаж роботи – 6 років`,
+    'eng': 'Work experience - 6 years'
+  },
+  'team_thirdPerson-link': {
+    'ua': `Записатись`,
+    'eng': 'Sign up'
+  },
+  // *----*  //
+  'team_fourth-name': {
+    'ua': `Данілов Олександр`,
+    'eng': 'Danilov Oleksandr'
+  },
+  'team_fourth-position': {
+    'ua': `Дитячий лікар-стоматолог`,
+    'eng': 'Children\'s dentist'
+  },
+  'team_fourth-experience': {
+    'ua': `Стаж роботи – 11 років`,
+    'eng': 'Work experience - 11 years'
+  },
+  'team_fourthPerson-link': {
+    'ua': `Записатись`,
+    'eng': 'Sign up'
+  },
+  // *----*  //
 }
