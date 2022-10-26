@@ -216,4 +216,11 @@ export const langArr = {
     'eng': 'Sign up'
   },
   // *----*  //
+
+  //  APPOINTMENT SECTION
+
+  'appointment_title': {
+    'ua': `Записатися на безкоштовний огляд`,
+    'eng': 'Sign up for a free inspection'
+  },
 }
