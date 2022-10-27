@@ -223,4 +223,5 @@ export const langArr = {
     'ua': `Записатися на безкоштовний огляд`,
     'eng': 'Sign up for a free inspection'
   },
+  //
 }
